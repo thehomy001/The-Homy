@@ -27,7 +27,7 @@ const Signup = () => {
             if (isSubmitting) {
                 try {
                     const response = await fetch(
-                        'https://projects.skymetweather.com/wnddevauth/fieldUserLogin',
+                        'http://127.0.0.1:8000/api/user/register/',
                         {
                             method: 'POST',
                             headers: {

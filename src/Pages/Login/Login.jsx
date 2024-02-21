@@ -23,7 +23,7 @@ const Login = () => {
         if (isSubmitting) {
             const loginUser = async () => {
                 try {
-                    const response = await fetch('https://projects.skymetweather.com/wnddevauth/fieldUserLogin', {
+                    const response = await fetch('http://3.27.122.168/api/user/login/', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
